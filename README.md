@@ -19,7 +19,7 @@
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Feedback](#feedback)
-- [Build Process](#build-process)
+- [How To Use](#how-to-use)
 - [Scripts](#scripts)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
