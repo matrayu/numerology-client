@@ -1,0 +1,39 @@
+/* .RegistrationPage {
+    margin: 0 auto;
+    padding: 20px 40px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.container {
+    min-width: 315px;
+}
+
+.form-control {
+    margin: 20px 0;
+}
+
+label {
+    display: none;
+}
+
+.btn__container {
+    display: flex;
+    justify-content: center;
+}
+
+form .btn {
+    min-width: 120px;
+    margin: 20px 7%;
+    color: #fff;
+    background-color: #1DC0FC;
+    border-color: #1DC0FC;
+    box-shadow: none;
+    flex: 1;
+}
+
+@media screen and (min-width: 643px) {
+    .RegistrationPage {
+        width: 50%;
+    }
+} */

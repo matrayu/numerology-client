@@ -1,0 +1,624 @@
+body {
+  background-color: #0576B3;
+  min-width: 320px;
+}
+
+.App {
+  padding-bottom: 20px;
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+}
+
+.App__header {
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 64px;
+  background-color: #1DC0FC;
+  position: relative;
+}
+
+.App__main {
+  background-color: #0576B3;
+}
+
+.LoginPage {
+  margin: 0 auto;
+  text-align: center;
+  color: antiquewhite;
+}
+
+
+label {
+  display: none;
+}
+
+.login-form {
+  margin: 20%;
+  background: #f2f2f2;
+  padding: 5%;
+  border-radius: 2%;
+  font-size: 18px;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=date], select, textarea {
+  width: 80%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-size: 14px;
+  margin: 14px;
+}
+
+.login-control-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin: 10px -30px 10px -30px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.header {
+  font-size: 30px;
+}
+
+.button {
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.RegistrationPage {
+  margin: 0 auto;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.form_container {
+  /* min-width: 315px; */
+  margin: 0 auto;
+  text-align: center;
+  color: antiquewhite;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.btn__container {
+  display: flex;
+  justify-content: center;
+}
+
+form .btn {
+  width: 87%;
+  min-width: 120px;
+  margin: 20px 7%;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #1DC0FC;
+  border-color: #1DC0FC;
+  box-shadow: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.instructions {
+  margin: 20px 10%;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar>.container {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__brand {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  padding: 14px 0;
+  margin: 0 42px 0 50px;
+}
+
+@media screen and (max-width: 599px) {
+  .navbar__brand {
+    margin: 0 auto;
+  }
+
+  .navbar>.container {
+    flex-direction: column;
+  }
+
+  .navbar__btns {
+    padding-bottom: 5px;
+  }
+}
+
+
+
+.navbar__btns {
+  display: flex;
+}
+
+.navbar__btns>a {
+  font-size: 18px;
+  margin: 0 10px;
+}
+
+#login {
+  align-self: center;
+}
+
+.navbar__btns>a:link,.navbar__btns>a:visited {
+  color: mintcream;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 700;
+  color: #555a64;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 2px solid transparent;
+  padding: .625rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .3125rem;
+}
+
+.btn-register {
+  color: #fff;
+  background-color: #2568ef;
+  border-color: #2568ef;
+  box-shadow: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 30px 20px;
+  background-image: url('../../images/numbers-header.jpg');
+  background-color: #5F6263;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: difference;
+}
+
+
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 19px;
+}
+
+p {
+  font-size: 18px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.card {
+  position: relative;
+  color: antiquewhite;
+  margin: 55px auto;
+  text-align: center;
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.section__1 {
+  color: antiquewhite;
+  flex: 1;
+  margin: 70px 12px;
+  padding: 33px 20px 70px 20px;
+  background-color: #0576B3;
+  border: 7px solid mintcream;
+  border-radius: 22px
+}
+
+.bkgnd__color__grey {
+  background-color: rgb(92, 92, 92);
+}
+
+.card__text {
+  width: 70%;
+}
+
+.card__1 {
+  background-position-y: bottom;
+  background-image: url('../../images/motivation.jpg')
+}
+
+.card__2 {
+  background-position-y: center;
+  background-image: url('../../images/inner-self.jpg')
+}
+
+.card__3 {
+  background-position-y: center;
+  background-image: url('../../images/expression.jpg')
+}
+
+.card__4 {
+  background-position-y: center;
+  background-image: url('../../images/karmic-lessons.jpg')
+}
+
+.card__5 {
+  background-position-y: center;
+  background-image: url('../../images/hidden-tendencies.jpg')
+}
+
+.card__6 {
+  background-image: url('../../images/subconcious-respoinse.jpg')
+}
+
+.section__3 {
+  margin: 25px 45px;
+}
+
+.section__3:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.section__3_image {
+  padding: 120px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.name__image {
+  background-image: url('../../images/Marilyn_Monroe_Birth_Certificate.jpg');
+}
+
+.dob__image {
+  background-position-y: center;
+  background-image: url('../../images/kisspng-google-calendar-computer-icons-g-suite-android-png-transparent-calendar-5ab06b8e0e6ca4.5026728515215113100591.png')
+}
+
+.section__3_card_text {
+  margin: 0 0;
+  padding: 14px 18px;
+}
+
+
+.d_flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.how-it-works {
+  color: antiquewhite;
+  text-align: center;
+  max-width: 820px;
+  margin: auto;
+}
+
+.hw__container {
+  padding: 30px;
+}
+
+.signup__container {
+  height: 100px;
+  background-color: mintcream;
+}
+
+.signup__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  font-size: 27px;
+}
+
+a.logo:link,  a.logo:visited {
+  color: mintcream;
+}
+
+@media screen and (max-width: 685px) {
+  .card__container {
+    flex-direction: column;
+  }
+
+  .section__1 {
+    min-width: 375;
+    width: 80%;
+    margin: 2%;
+    height: 180px;
+  }
+
+  .section__3 {
+    display: block;
+    margin: 40px;
+  }
+
+  .section__3_image {
+    height: 180px;
+    width: 200px;
+    margin: auto;
+    padding: 0;
+  }
+}
+
+.header_userData {
+  margin: 4% 10%;
+  text-transform: capitalize;
+  color: antiquewhite;
+}
+
+.report__name {
+  font-size: 40px;
+  margin: 10px 0 0 0;
+}
+
+.report__dob {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+
+.header_numData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: mintcream;
+  padding: 21px 0;
+}
+
+.header_text {
+  color: #0576B3;
+  width: 150px;
+  height: 150px;
+  border: 9px solid darkgoldenrod;
+  border-radius: 50%;
+  margin: 1% 1%;
+  text-align: center;
+}
+
+.header_number {
+  font-size: 37px;
+}
+
+.text_container {
+  padding: 38px 11px;
+}
+
+.text_container > h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.NumerologyReportData {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.section__container {
+  display: flex;
+  margin: 10% 0;
+  padding: 25px;
+  color: antiquewhite;
+}
+
+.section__container:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+.image {
+  background-color: darkgoldenrod;
+  background-blend-mode: screen;
+  position: relative;
+  text-align: center;
+  color: antiquewhite;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  border: 11px solid mintcream;
+  border-radius: 67px;
+}
+
+.image__motivation {
+  background-image: url('../../images/motivation.jpg');
+}
+
+.image__inner_self {
+  background-image: url('../../images/inner-self.jpg');
+}
+
+.image__expression {
+  background-image: url('../../images/expression.jpg');
+}
+
+.image__karmic_lessons {
+  background-image: url('../../images/karmic-lessons.jpg');
+}
+
+.image__hidden_tendencies {
+  background-image: url('../../images/hidden-tendencies.jpg');
+}
+
+.image__subconscious_response {
+  background-image: url('../../images/subconcious-respoinse.jpg');
+}
+
+.image > .number {
+  font-size: 12vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 8px black
+}
+
+.data__text {
+  padding: 0px 30px;
+  flex: 1;
+  margin: 70px 0;
+}
+
+.paragraph {
+  margin: 22px 0;
+}
+
+.data__text > h2 {
+  margin: 0 0 5px 0;
+  font-size: 40px;
+}
+
+.data__text > div {
+  font-size: 20px;
+}
+
+.section__container > .number {
+  font-size: 100%;
+}
+
+.header_text > a:link, .header_text > a:visited {
+  text-decoration: none;
+  color: #0576B3;
+}
+
+.section__coming-soon {
+  max-width: 750px;
+  margin: 30px auto;
+  color: antiquewhite;
+}
+
+.section__coming-soon>h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.section__coming-soon>ul {
+  list-style-type: none;
+  font-size: 25px;
+  margin-top: 36px;
+  font-weight: bold;
+}
+
+.section__coming-soon>ul>p {
+  list-style-type: none;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 5px 9px 30px 0;
+}
+
+.login__btns>button {
+  margin: 12px 0;
+}
+
+.error {
+  font-weight: bolder;
+  margin: 10px auto;
+  padding: 22px;
+  max-width: 372px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.image__logo {
+  background-image: url('../../images/NumLogo.png');
+  width: 41px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 520px) {
+  .section__container {
+      display: block;
+      margin: 15px 0 0 0;
+  }
+
+  .image {
+      height: 97px;
+      position: relative;
+      text-align: center;
+      color: antiquewhite;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+
+  .data__text {
+      margin: 10px 0;
+  }
+
+  
+}
+
+@media screen and (min-width: 640px) {
+  .RegistrationPage, .LoginPage {
+      width: 50%;
+  }
+}
