@@ -1,73 +1,82 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center"> Simple Numerology </h1> <br>
+<p align="center">
+  <a href="https://gitpoint.co/">
+    <img alt="SimpleNumerology" title="SimpleNumerology" src="src/images/Num-Transparent.png" width="250">
+  </a>
+</p>
 
-## Available Scripts
+<p align="center">
+  A simple numerology app. Built with React.
+</p>
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+## Table of Contents
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Feedback](#feedback)
+- [Build Process](#build-process)
+- [Scripts](#scripts)
 
-### `npm test`
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Introduction
 
-### `npm run build`
+Numerology is part of an occult field with its origins dating back many centuries. The findings of the original numerologists have been checked and refined in the field countless times, confirming over a period of thousands of years the vital correlations between people's traits and the numbers which numerologists assign to these traits. The Simple Numerology App allows users to quickly obtain their numbers which are generated based on their given name at birth and their birthdate.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+A few of the things you can do with Simple Numerology:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Set up an account
+* View your Motivation Number and Correlating Data 
+* View your Inner-Self Number and Correlating Data 
+* View your Expression Number and Correlating Data 
+* View your Karmic Lesson Number(s) and Correlating Data 
+* View your Hidden Tendencies Number(s) and Correlating Data 
+* View your Subconscious Response Number and Correlating Data
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center" >
+  <img src = "src/images/screen6-200.png" width=200 border="5px solid black">
+  <img src = "src/images/screen4-200.png" width=200 border="5px solid black">
+  <img src = "src/images/screen3-200.png" width=200 border="5px solid black">
+  <img src = "src/images/screen5-200.png" width=200 border="5px solid black">
+  <img src = "src/images/screen1-200.png" width=200 border="5px solid black">
+  <img src = "src/images/screen7-200.png" width=200 border="5px solid black">
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Feedback
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Feel free to send us feedback or [file an issue](https://github.com/matrayu/numerology-app/issues/new). Feature requests are always welcome. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## How To Use
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone this repository
+$ git clone https://github.com/matrayu/numerology-client
 
-### Code Splitting
+# Go into the repository
+$ cd numerology-client
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Install dependencies
+$ npm install
 
-### Analyzing the Bundle Size
+# Run the app
+$ npm start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+## Scripts
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-- create `./public/now.json` and include `"alias": "[username]-numerology-client"`
-- `npm run build`
-- `now ./build`
-- `now alias -A ./build/now.json`
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- `npm run dev` to start nodemon
+- `npm t` to run tests
+- `ndb start` to run debugging experience
