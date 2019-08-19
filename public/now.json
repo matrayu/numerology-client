@@ -1,15 +1,10 @@
 {
     "version": 2,
-    "alias": "matrayu-numerology-app",
+    "alias": "simple-numerology-app",
     "name": "numerology-client",
     "routes": [
-        {
-          "src": "^/static/(.*)",
-          "dest": "/static/$1"
-        },
-        {
-          "src": ".*",
-          "dest": "/index.html"
-        }
+      {"src": "^/static/(.*)",  "dest": "/static/$1"},
+      {"src": ".*", "dest": "/index.html"},
+      {"src": "^/favicon.ico$", "dest": "/favicon.ico"}
     ]
   }
