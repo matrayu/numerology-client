@@ -4,7 +4,7 @@
     "name": "numerology-client",
     "routes": [
       {"src": "^/static/(.*)",  "dest": "/static/$1"},
-      {"src": ".*", "dest": "/index.html"},
-      {"src": "^/favicon.ico$", "dest": "/favicon.ico"}
+      {"src": "^/favicon.ico$", "dest": "/favicon.ico"},
+      {"src": "./*", "dest": "/index.html"}
     ]
   }
