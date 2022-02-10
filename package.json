@@ -9,7 +9,7 @@
     "lodash": "^4.17.14",
     "material-kit-react": "^1.7.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "npmvet": "^0.1.5",
     "react": "^16.8.6",
     "react-context": "0.0.3",
